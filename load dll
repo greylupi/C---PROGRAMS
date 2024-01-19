@@ -1,0 +1,24 @@
+#include <windows.h>
+
+typedef void (WINAPI* HelloWorldFunctionPointer)();
+
+int main() {
+	//load dll
+
+	HMODULE hModule = GetModuleHandle("C:\\Users\\MALDEV01\\source\\repos\\Dll1\\x64\\Debug\\dll1.dll"); //hModule conatains dll1.dll
+
+	if (hModule == NULL) {
+		//if not in memory, use loadlibrary to load dll
+		hModule = LoadLibraryA("C:\\Users\\MALDEV01\\source\\repos\\Dll1\\x64\\Debug\\dll1.dll");
+	};
+
+	//retrieve functions address
+	PVOID pHelloWorld = GetProcAddress(hModule, "HelloWorld"); //pHelloWorld stores its functions address
+
+	HelloWorldFunctionPointer HelloWorld = (HelloWorldFunctionPointer)pHelloWorld;
+
+	//invoke Helloworld
+	HelloWorld();
+
+	return 0;
+}
