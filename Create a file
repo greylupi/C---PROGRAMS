@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <Windows.h>
+
+int main() {
+	//initialize variable
+	HANDLE hFile = INVALID_HANDLE_VALUE;
+
+	//full path of file to create
+	LPCWSTR filePath = L"C:\\users\\maldev01\\desktop\\maldev.txt";
+	//call createfile... parameters from documentation
+	hFile = CreateFileW(filePath, GENERIC_ALL, 0, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_HIDDEN, NULL);
+
+	// On failure CreateFileW returns INVALID_HANDLE_VALUE
+	// GetLastError() is another Windows API that retrieves the error code of the previously executed WinAPI function
+	if (hFile == INVALID_HANDLE_VALUE) {
+		printf("[-] CreateFileW Api Function Failed With Error: %d\n", GetLastError());
+		return -1;
+	}
+};
