@@ -1,3 +1,4 @@
+//loads sample.dll
 #include <windows.h>
 
 typedef void (WINAPI* HelloWorldFunctionPointer)();
@@ -5,11 +6,11 @@ typedef void (WINAPI* HelloWorldFunctionPointer)();
 int main() {
 	//load dll
 
-	HMODULE hModule = GetModuleHandle("C:\\Users\\MALDEV01\\source\\repos\\Dll1\\x64\\Debug\\dll1.dll"); //hModule conatains dll1.dll
+	HMODULE hModule = GetModuleHandle("C:\\Users\\username\\source\\repos\\Dll1\\x64\\Debug\\sample.dll"); //hModule conatains sample.dll
 
 	if (hModule == NULL) {
 		//if not in memory, use loadlibrary to load dll
-		hModule = LoadLibraryA("C:\\Users\\MALDEV01\\source\\repos\\Dll1\\x64\\Debug\\dll1.dll");
+		hModule = LoadLibraryA("C:\\Users\\username\\source\\repos\\Dll1\\x64\\Debug\\sample.dll");
 	};
 
 	//retrieve functions address
