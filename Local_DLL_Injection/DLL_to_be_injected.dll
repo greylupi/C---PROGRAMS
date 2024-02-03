@@ -1,0 +1,27 @@
+// dllmain.c : Defines the entry point for the DLL application.
+//this dll is to be called by the localDLLInjection.c file
+#include <windows.h>
+#include <stdio.h>
+
+VOID MsgBoxPayLoad() {
+    MessageBoxA(NULL, "DLLMain successfully loaded into binary.", "Local Injection", MB_OK | MB_ICONINFORMATION);
+}
+
+BOOL APIENTRY DllMain( HMODULE hModule,
+                       DWORD  ul_reason_for_call,
+                       LPVOID lpReserved
+                     )
+{
+    switch (dwReason)
+    {
+    case DLL_PROCESS_ATTACH: {
+        MsgBoxPayLoad();
+        break;
+    };
+    case DLL_THREAD_ATTACH:
+    case DLL_THREAD_DETACH:
+    case DLL_PROCESS_DETACH:
+        break;
+    }
+    return TRUE;
+}
