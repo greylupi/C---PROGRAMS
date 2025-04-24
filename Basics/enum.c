@@ -16,7 +16,7 @@ int main() {
       };
 
     // Defining a "Weekdays" enum variable
-    enum Weekdays EnumName = Friday;       // 4
+    enum Weekdays EnumName = Thursday;       // 4
 
     // Check the value of "EnumName"
     switch (EnumName){
