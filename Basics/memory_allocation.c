@@ -16,5 +16,6 @@ int main () {
     printf("[+] Base address of allocated memory: 0x%p\n", pAddress);
     printf("[+] Press <Enter> to close program...");
     getchar();
+
     return 0;
 }
