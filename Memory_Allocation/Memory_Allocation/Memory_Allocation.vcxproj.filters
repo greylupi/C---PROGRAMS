@@ -18,5 +18,8 @@
     <ClCompile Include="Writing_to_memory.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="writing_to_memory2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

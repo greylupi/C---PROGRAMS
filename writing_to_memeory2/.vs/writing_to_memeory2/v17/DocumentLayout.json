@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Martin\\OneDrive\\Documents\\GitHub\\C---PROGRAMS\\writing_to_memeory2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D44DCAB-E758-46A2-AA36-F9D01AF1B3CF}|writing_to_memeory2.vcxproj|C:\\Users\\Martin\\OneDrive\\Documents\\GitHub\\C---PROGRAMS\\writing_to_memeory2\\Writing_to_memory2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D44DCAB-E758-46A2-AA36-F9D01AF1B3CF}|writing_to_memeory2.vcxproj|solutionrelative:Writing_to_memory2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Writing_to_memory2.c",
+              "DocumentMoniker": "C:\\Users\\Martin\\OneDrive\\Documents\\GitHub\\C---PROGRAMS\\writing_to_memeory2\\Writing_to_memory2.c",
+              "RelativeDocumentMoniker": "Writing_to_memory2.c",
+              "ToolTip": "C:\\Users\\Martin\\OneDrive\\Documents\\GitHub\\C---PROGRAMS\\writing_to_memeory2\\Writing_to_memory2.c",
+              "RelativeToolTip": "Writing_to_memory2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-25T02:53:46.332Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

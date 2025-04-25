@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Martin\\OneDrive\\Documents\\GitHub\\C---PROGRAMS\\Memory_Allocation\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C1212315-1145-4087-A85B-BB36A7AB62E0}|Memory_Allocation\\Memory_Allocation.vcxproj|C:\\Users\\Martin\\OneDrive\\Documents\\GitHub\\C---PROGRAMS\\Memory_Allocation\\Memory_Allocation\\Writing_to_memory.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C1212315-1145-4087-A85B-BB36A7AB62E0}|Memory_Allocation\\Memory_Allocation.vcxproj|solutionrelative:Memory_Allocation\\Writing_to_memory.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Writing_to_memory.c",
-              "DocumentMoniker": "C:\\Users\\Martin\\OneDrive\\Documents\\GitHub\\C---PROGRAMS\\Memory_Allocation\\Memory_Allocation\\Writing_to_memory.c",
-              "RelativeDocumentMoniker": "Memory_Allocation\\Writing_to_memory.c",
-              "ToolTip": "C:\\Users\\Martin\\OneDrive\\Documents\\GitHub\\C---PROGRAMS\\Memory_Allocation\\Memory_Allocation\\Writing_to_memory.c",
-              "RelativeToolTip": "Memory_Allocation\\Writing_to_memory.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-25T02:29:36.466Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

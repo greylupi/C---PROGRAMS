@@ -1,0 +1,4 @@
+﻿  CreatFileW_WinAPI.c
+C:\Users\Martin\OneDrive\Documents\GitHub\C---PROGRAMS\CreatFileW_WinAPI\CreatFileW_WinAPI.c(23,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'DWORD (__cdecl *)(void)'
+C:\Users\Martin\OneDrive\Documents\GitHub\C---PROGRAMS\CreatFileW_WinAPI\CreatFileW_WinAPI.c(23,10): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'DWORD (__cdecl *)(void)'
+  CreatFileW_WinAPI.vcxproj -> C:\Users\Martin\OneDrive\Documents\GitHub\C---PROGRAMS\CreatFileW_WinAPI\x64\Debug\CreatFileW_WinAPI.exe
